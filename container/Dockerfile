@@ -35,7 +35,8 @@ RUN apt-get update && apt-get install -y \
   libxml2-dev \
   libfftw3-dev \
   libpoppler-glib-dev \
-  libwebp-dev
+  libwebp-dev \
+  imagemagick
 
 # build our stack to this prefix
 ARG VIPS_PREFIX=/usr/local/vips
